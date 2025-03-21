@@ -55,3 +55,10 @@ Carro.marca = "Dodge";
 Carro.modelo = "Challenger";
 Carro.ano = 2023;
 console.log(Carro)
+
+let nome = prompt("Digite o seu nome")
+function mensagemPersonalizada(nome,mensagem = "olá") {
+    console.log("O seu nome é "+nome);
+    console.log(mensagem);
+}
+mensagemPersonalizada(nome,mensagem = "olá")
