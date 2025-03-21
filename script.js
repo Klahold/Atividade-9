@@ -49,3 +49,9 @@ function contarCaracteres(string) {
     console.log(mystring)
 }
 contarCaracteres(string)
+
+let Carro = new Object();
+Carro.marca = "Dodge";
+Carro.modelo = "Challenger";
+Carro.ano = 2023;
+console.log(Carro)
