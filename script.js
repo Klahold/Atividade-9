@@ -1,4 +1,3 @@
-/*
 console.log("Hello, world!")
 let numero = parseInt(prompt("digite um numero: "));
 function verificarPar(numero){
@@ -73,11 +72,16 @@ function media(n3,n4,n5) {
     console.log(divAritmética)
 }
 media(n3,n4,n5)
-*/
+
 for (let i = 1; i < 20; i++) {
     if (i % 3 === 0) {
         console.log(i +" = Múltiplo de 3")
     } else {
         console.log(i +" = Não múltiplo de 3")
     }
+}
+
+let texto = prompt("digite uma palavra?")
+function verificarPalindromo(texto) {
+
 }
