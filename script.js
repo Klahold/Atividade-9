@@ -36,6 +36,9 @@ while (n > 1) {
 
 let str = prompt("digite um texto?")
 function inverterTexto(str) {
-    
+    let splitString = str.split("")
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join("");
+    console.log (joinArray);
 }
 inverterTexto(str)
