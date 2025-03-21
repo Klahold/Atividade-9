@@ -62,3 +62,13 @@ function mensagemPersonalizada(nome,mensagem = "olá") {
     console.log(mensagem);
 }
 mensagemPersonalizada(nome,mensagem = "olá")
+
+let n3 = parseInt(prompt("digite um numero"));
+let n4 = parseInt(prompt("digite um numero"));
+let n5 = parseInt(prompt("digite um numero"));
+function media(n3,n4,n5) {
+    let somaAritmética = (n1+n2+n3)
+    let divAritmética = (somaAritmética/3)
+    console.log(divAritmética)
+}
+media(n3,n4,n5)
