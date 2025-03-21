@@ -42,3 +42,10 @@ function inverterTexto(str) {
     console.log (joinArray);
 }
 inverterTexto(str)
+
+let string = prompt("digite uma palavra?")
+function contarCaracteres(string) {
+    let mystring = string.length
+    console.log(mystring)
+}
+contarCaracteres(string)
